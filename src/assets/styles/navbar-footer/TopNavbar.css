@@ -1,0 +1,80 @@
+@media (min-width: 992px) {
+    .top-navbar {
+            height: 5.2rem ;
+        }
+}
+.nav>.nav-link {
+    font-size: 2rem;
+}
+.user-top-navbar-area-large {
+    text-align: center;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.profile-picture-large {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+
+
+.user-top-navbar-area-large>.profile-picture-large>.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.user-top-navbar-area-small{
+    text-align: center;
+}
+.profile-picture-small{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 25%;
+}
+.user-top-navbar-area-small>.profile-picture-small>.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.sun-icon {
+    color: gold;
+    animation: spin-animation-sun 1.5s 1;
+}
+
+.moon-icon {
+    color: #F8F4EA;
+    animation: spin-animation-moon 1.5s 1;
+}
+
+@keyframes spin-animation-sun {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin-animation-moon {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
