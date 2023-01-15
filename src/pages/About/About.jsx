@@ -53,7 +53,7 @@ export default function About() {
                                     What coding languages did you use?
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    This website is fully developt with HTML,
+                                    This website is fully developed with HTML,
                                     CSS and JavaScript
                                 </Accordion.Body>
                             </Accordion.Item>
