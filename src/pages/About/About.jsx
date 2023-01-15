@@ -19,7 +19,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className={`p-4 components-${theme} `}>
-                        <h3>Welcome to Busycard!</h3>
+                        <h3>Welcome to BusyCard!</h3>
                         <p>
                             This website is my little project to truly
                             understand how to code in React.js. <br />
