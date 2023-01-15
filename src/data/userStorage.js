@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://busycard-backend.herokuapp.com';
 
 export async function signinUser(email, password) {
     const response = await fetch(BASE_URL + '/customers/signin', {

@@ -1,4 +1,5 @@
-const BASE_URL = 'http://localhost:5000/cards';
+/* const BASE_URL = 'http://localhost:5000/cards'; */
+const BASE_URL = 'https://busycard-backend.herokuapp.com/cards';
 
 export async function getCards() {
     return fetch(BASE_URL).then((res) => res.json());
